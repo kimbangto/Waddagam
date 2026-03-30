@@ -1,3 +1,4 @@
+@file:Suppress("UnstableApiUsage")
 pluginManagement {
     repositories {
         google {
@@ -21,3 +22,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "Waddagam"
 include(":app")
+include(":domain")
+include(":data")
+include(":core")
+include(":feature:camera")
